@@ -13,7 +13,6 @@ Below is an example of the javautils.digest.EzDigest class:
 import java.security.NoSuchAlgorithmException;
 import javautils.digest.EzDigest;
 
-{
 	public class Testing {
 	    public static void main(String[] args) {
 	        try {
@@ -24,4 +23,3 @@ import javautils.digest.EzDigest;
 	        }
 	    }
 	}
-}
