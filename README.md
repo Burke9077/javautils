@@ -13,14 +13,15 @@ Below is an example of the javautils.digest.EzDigest class:
 import java.security.NoSuchAlgorithmException;
 import javautils.digest.EzDigest;
 
-public class Testing {
-
-    public static void main(String[] args) {
-        try {
-            System.out.println("SHA256: " + EzDigest.getSHA256("Test"));
-            System.out.println("MD5 : " + EzDigest.getMD5("Test"));
-        } catch (NoSuchAlgorithmException ex) {
-            System.out.println(ex.getCause());
-        }
-    }
+{
+	public class Testing {
+	    public static void main(String[] args) {
+	        try {
+	            System.out.println("SHA256: " + EzDigest.getSHA256("Test"));
+	            System.out.println("MD5 : " + EzDigest.getMD5("Test"));
+	        } catch (NoSuchAlgorithmException ex) {
+	            System.out.println(ex.getCause());
+	        }
+	    }
+	}
 }
