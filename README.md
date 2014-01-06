@@ -10,9 +10,8 @@ javautils.digest.EzDigest: simplified hashes and message digests
 
 Below is an example of the javautils.digest.EzDigest class:
 
-import java.security.NoSuchAlgorithmException;
-import javautils.digest.EzDigest;
-
+	import java.security.NoSuchAlgorithmException;
+	import javautils.digest.EzDigest;
 	public class Testing {
 	    public static void main(String[] args) {
 	        try {
