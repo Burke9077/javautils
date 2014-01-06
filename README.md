@@ -16,8 +16,8 @@ Below is an example of the javautils.digest.EzDigest class:
 	public class Testing {
 	    public static void main(String[] args) {
 	        try {
-	            System.out.println("SHA256: " + EzDigest.getSHA256("Test"));
-	            System.out.println("MD5 : " + EzDigest.getMD5("Test"));
+	            System.out.println("SHA256: " + EzDigest.getSHA256String("Test"));
+	            System.out.println("MD5 : " + EzDigest.getMD5String("Test"));
 	        } catch (NoSuchAlgorithmException ex) {
 	            System.out.println(ex.getCause());
 	        }
