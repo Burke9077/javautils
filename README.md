@@ -4,7 +4,8 @@ javautils
 JavaUtils is a package designed to simplify some Java operations, that can then be called as a method.
 
 JavaUtils provides the following classes and functions:
-javautils.digest.EzDigest: simplified hashes and message digests
+
+*javautils.digest.EzDigest: simplified hashes and message digests
 
 =========
 
