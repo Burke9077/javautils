@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * EzDigest is a simple way to get various Message Digests when given either a 
  * String or byte array.
- * @author Matthew Larry Burke
+ * @author burke9077
  */
 public class EzDigest {
     
