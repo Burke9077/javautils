@@ -5,7 +5,7 @@ JavaUtils is a package designed to simplify some Java operations, that can then 
 
 JavaUtils provides the following classes and functions:
 
--javautils.digest.EzDigest: simplified hashes and message digests
+-javautils.digest.EzDigest: simplified hashes and message digests  
 -javautils.network.Ping: simplified network reachability via ICMP echo request (ping)
 
 =========
