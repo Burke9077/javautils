@@ -3,8 +3,7 @@ javautils
 
 JavaUtils is a package designed to simplify some Java operations, that can then be called as a method.
 
-JavaUtils provides the following classes and functions:
-
+JavaUtils provides the following classes and functions:  
 -javautils.digest.EzDigest: simplified hashes and message digests  
 -javautils.network.Ping: simplified network reachability via ICMP echo request (ping)
 
@@ -13,6 +12,7 @@ JavaUtils provides the following classes and functions:
 Examples
 =========
 javautils.digest.EzDigest class:
+
 	import java.security.NoSuchAlgorithmException;
 	import javautils.digest.EzDigest;
 	
@@ -29,6 +29,7 @@ javautils.digest.EzDigest class:
 	}
 	
 javautils.network.Ping class:
+
 	import java.io.IOException;
 	import javautils.network.Ping;
 
@@ -43,4 +44,3 @@ javautils.network.Ping class:
             // The system waitFor process was interrupted
         }
     }
-}
