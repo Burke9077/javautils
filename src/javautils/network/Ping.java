@@ -19,7 +19,7 @@ public class Ping {
      * @throws InterruptedException 
      */
     public static boolean isNetworkAddressReachable(String address) throws IOException, InterruptedException {
-        String cmd = "";
+        String cmd;
         if(System.getProperty("os.name").startsWith("Windows")) {   
                 // For Windows
                 cmd = "ping -n 1 " + address;
