@@ -4,14 +4,15 @@ javautils
 JavaUtils is a package designed to simplify some Java operations, that can then be called as a method.
 
 JavaUtils provides the following classes and functions:  
--javautils.digest.EzDigest: simplified hashes and message digests  
--javautils.network.Ping: simplified network reachability via ICMP echo request (ping)
+-com.burke9077.javautils.security.Digest: simplified hashes and message digests  
+-com.burke9077.javautils.network.Ping: simplified network reachability via ICMP echo request (ping)
+-com.burke9077.javautils.common.StringWorker: simplified regular expression checking
 
 =========
 
 Examples
 =========
-javautils.digest.EzDigest class:
+com.burke9077.javautils.security.Digest class:
 
 	import java.security.NoSuchAlgorithmException;
 	import javautils.digest.EzDigest;
@@ -28,7 +29,7 @@ javautils.digest.EzDigest class:
 	    }
 	}
 	
-javautils.network.Ping class:
+com.burke9077.javautils.network.Ping class:
 
 	import java.io.IOException;
 	import javautils.network.Ping;
