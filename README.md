@@ -45,3 +45,13 @@ com.burke9077.javautils.network.Ping class:
             // The system waitFor process was interrupted
         }
     }
+    
+com.burke9077.javautils.common.StringWorker class:
+
+    import com.burke9077.javautils.common.StringWorker;
+    
+    public static void main(String[] args) {
+        System.out.println("My String", "^\\w+");
+    }
+    
+Output: My
