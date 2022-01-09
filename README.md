@@ -1,3 +1,5 @@
+# NOTE: This repo is old and no longer maintained. Other repos (like Apache's utils) should be used instead of these.
+
 javautils
 =========
 
